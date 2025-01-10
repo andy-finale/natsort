@@ -43,7 +43,7 @@ Leading spaces are ignored.  This works very well for IP addresses
 from log files, for example.
 
 
-Leading zeros are *not* ignored, which tends to give more
+Leading zeros are *not* ignored after a '.', which tends to give more
 reasonable results on decimal fractions.
 
       1.001 < 1.002 < 1.010 < 1.02 < 1.1 < 1.3
